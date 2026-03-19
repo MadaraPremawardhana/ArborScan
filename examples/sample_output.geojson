@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "description": "ArborScan sample output — Hyde Park, London (synthetic demo)",
+  "properties": {
+    "centre_lat": 51.5074,
+    "centre_lon": -0.1278,
+    "coverage_metres": 400,
+    "detection_date": "2026-03-19",
+    "pipeline": "NDVI → Gaussian blur (σ=2.5) → threshold → connected-components → WGS-84"
+  },
+  "features": [
+    { "type": "Feature", "properties": { "id": 1, "radius_m": 8.2, "confidence": 0.91 }, "geometry": { "type": "Point", "coordinates": [-0.1265, 51.5081] } },
+    { "type": "Feature", "properties": { "id": 2, "radius_m": 6.1, "confidence": 0.83 }, "geometry": { "type": "Point", "coordinates": [-0.1271, 51.5069] } },
+    { "type": "Feature", "properties": { "id": 3, "radius_m": 11.4, "confidence": 0.95 }, "geometry": { "type": "Point", "coordinates": [-0.1289, 51.5077] } },
+    { "type": "Feature", "properties": { "id": 4, "radius_m": 4.7, "confidence": 0.72 }, "geometry": { "type": "Point", "coordinates": [-0.1254, 51.5063] } },
+    { "type": "Feature", "properties": { "id": 5, "radius_m": 9.3, "confidence": 0.88 }, "geometry": { "type": "Point", "coordinates": [-0.1301, 51.5058] } },
+    { "type": "Feature", "properties": { "id": 6, "radius_m": 5.5, "confidence": 0.77 }, "geometry": { "type": "Point", "coordinates": [-0.1278, 51.5091] } },
+    { "type": "Feature", "properties": { "id": 7, "radius_m": 7.8, "confidence": 0.86 }, "geometry": { "type": "Point", "coordinates": [-0.1245, 51.5074] } },
+    { "type": "Feature", "properties": { "id": 8, "radius_m": 3.9, "confidence": 0.64 }, "geometry": { "type": "Point", "coordinates": [-0.1312, 51.5083] } },
+    { "type": "Feature", "properties": { "id": 9, "radius_m": 12.1, "confidence": 0.97 }, "geometry": { "type": "Point", "coordinates": [-0.1260, 51.5049] } },
+    { "type": "Feature", "properties": { "id": 10, "radius_m": 6.6, "confidence": 0.81 }, "geometry": { "type": "Point", "coordinates": [-0.1295, 51.5066] } }
+  ]
+}
